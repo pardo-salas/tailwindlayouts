@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-header {
+  @apply text-4xl my-5 font-semibold;
+}
+
+.page-desc {
+  @apply -mt-3 mb-5 text-gray-600;
+}
+
+.section-header {
+  @apply text-xl mt-8 mb-3 font-semibold text-gray-600;
+}
+
+.section-desc {
+  @apply text-gray-600 text-sm -mt-2 mb-3;
+}
+
+.btn {
+  @apply rounded-md focus:outline-none px-7 py-3.5;
+}
+
+.btn-primary {
+  @apply bg-indigo-600 text-white hover:bg-indigo-700;
+}
+
+.btn-lg {
+  @apply text-lg;
+}
+
+.language-html {
+  margin: 0!important;
+}
